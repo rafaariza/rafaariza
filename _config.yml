@@ -96,7 +96,8 @@ analytics:
 author:
   name             : "Rafa Jurado Ariza"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Estudiante de #UCOFísica. Aficionado al hacking y la programación"
+  bio              : "Estudiante de #UCOFísica. 
+                      Aficionado al hacking y la programación"
   location         : "Córdoba, España."
   email            :
   links:
