@@ -96,14 +96,13 @@ analytics:
 author:
   name             : "Rafa Jurado Ariza"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Estudiante de #UCOFísica. 
-                      Aficionado al hacking y la programación"
+  bio              : "Estudiante de #UCOFísica. Aficionado al hacking y la programación."
   location         : "Córdoba, España."
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:silex.designs12@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -118,7 +117,7 @@ author:
       url: "https://github.com/rafaariza/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/rafaariza_98"
 
 # Site Footer
 footer:
@@ -278,6 +277,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
