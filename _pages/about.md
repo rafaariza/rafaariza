@@ -22,7 +22,6 @@ Pero pienso que mi capacidad más grande es el ser **autodidacta**, debido a mi 
 
 La respuesta es que en su momento mi idea era estudiar algo que tuviera matemáticas pero que no me supusiera irme de Córdoba, las opciones eran alguna ingeniería o física. Creo que escogí bien ya que el grado de Física me ha aportado una **competencia** fuerte en **enfrentar** y **resolver** problemas. Merece la pena mencionar que también sería de mi agrado dedicarme profesionalmente a la física: **computación cuántica**, **física del plasma**, **física teórica**, etc.
 
-Iré haciendo un seguimiento de mi **TFG** en este blog. De igual modo, publicaré artículos relacionados con matemáticas, física, programación o hacking.
+Iré haciendo un seguimiento de mi **TFG** en este blog. De igual modo, publicaré artículos relacionados con **matemáticas**, **física**, **programación** o **hacking**.
 
-{: .text-justify}
-
+No dudes en [contactarme](https://t.me/silexx/) si encuentras interesante mi blog, piensas que podrías encajar conmigo o simplemente quieres conectar.
