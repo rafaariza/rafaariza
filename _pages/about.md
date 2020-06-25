@@ -1,8 +1,9 @@
 ---
-layout: single
+layout: splash
 permalink: /about/
 author_profile: false
-classes: wide
+title: "Sobre mí"
+# classes: wide
 date: 26/06/2020
 ---
 
