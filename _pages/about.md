@@ -36,10 +36,13 @@ De manera totalmente autodidacta he aprendido:
 - Adobe Photoshop
 - Microsoft Excel
 
+Mi nivel de inglés es un B2.
+
 ### Keywords:
 
 Python, Matlab, Octave, Latex, Física, Physics, Maths, Matemáticas, Hacking, Programación.
 
 ## Aficiones
 
-Referido al ejercicio físico, me gusta practicar calistenia y sentadillas pesadas. En mi tiempo libre veo anime y documentales de cualquier ámbito.
+Referido al ejercicio físico, me gusta practicar **calistenia** y **sentadillas pesadas**. En mi tiempo libre veo **anime** y **documentales** de cualquier ámbito, resuelvo **cubos de Rubik**, juego al **League of Legends** o salgo con amigos.
+
