@@ -15,3 +15,11 @@ Mi nombre es Rafa Jurado Ariza (aka **SileXx**), un chico de Córdoba que estudi
 El talento que siempre he tenido han sido las matemáticas, prueba de ello es mi resultado entre los 25 primeros de la XXVIII Olimpiada Matemática 
 [**Thales**](https://thales.cica.es/cordoba/sites/thales.cica.es.cordoba/files/25primeros_XXVIII.pdf) y mi participación en el programa [**Estalmat**](https://es.wikipedia.org/wiki/ESTALMAT).
 
+Pero pienso que mi capacidad más grande es el ser **autodidacta**, debido a mi comportamiento nervioso nunca me ha sido fácil atender en las aulas. Me gustaría dedicarme en el futuro a algo que relacione **picar código**, **ordenadores** y **matemáticas**, por eso mi gran afición es el **hacking** o la **ciberseguridad** ya que en ello encuentro retos para resolver y seguir mejorando. Entonces, te estarás preguntando por qué escogí Física. 
+
+La respuesta es que en su momento mi idea era estudiar algo que tuviera matemáticas pero que no me supusiera irme de Córdoba, las opciones eran alguna ingeniería o física. Creo que escogí bien ya que el grado de Física me ha aportado una **competencia** fuerte en **enfrentar** y **resolver** problemas. Merece la pena mencionar que también sería de mi agrado dedicarme profesionalmente a la física: **computación cuántica**, **física del plasma**, **física teórica**, etc.
+
+Aún no he decidido mi **TFG** pero sea cual sea, iré haciendo un seguimiento en este blog. De igual modo, publicaré artículos relacionados con matemáticas, física, programación o hacking.
+
+
+
