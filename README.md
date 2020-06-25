@@ -1,4 +1,4 @@
-# # [rafajurado.com](https://rafajurado.com)
+# [rafajurado.com](https://rafajurado.com)
 
 Blog personal donde comparto cosas que me parecen interesantes.
 
