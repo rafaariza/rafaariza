@@ -25,3 +25,21 @@ La respuesta es que en su momento mi idea era estudiar algo que tuviera matemát
 Iré haciendo un seguimiento de mi **TFG** en este blog. De igual modo, publicaré artículos relacionados con **matemáticas**, **física**, **programación** o **hacking**.
 
 No dudes en [contactarme](https://t.me/silexx/) si encuentras interesante mi blog, piensas que podrías encajar conmigo o simplemente quieres conectar.
+
+## Mis skills
+
+De manera totalmente autodidacta he aprendido:
+- Python
+- LaTeX
+- MATLAB
+- GNU Octave
+- Adobe Photoshop
+- Microsoft Excel
+
+### Keywords:
+
+Python, Matlab, Octave, Latex, Física, Physics, Maths, Matemáticas, Hacking, Programación.
+
+## Aficiones
+
+Referido al ejercicio físico, me gusta practicar calistenia y sentadillas pesadas. En mi tiempo libre veo anime y documentales de cualquier ámbito.
