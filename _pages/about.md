@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /about/
-author_profile: true
+author_profile: false
 classes: wide
 date: 26/06/2020
 ---
