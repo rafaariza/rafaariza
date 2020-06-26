@@ -2,14 +2,16 @@
 main:
   - title: "Inicio"
     url: /
-  - title: "Sobre mí"
-    url: /about/
-  - title: "Buscador"
-    url: /buscador/
   - title: "Artículos"
     url: /year-archive/
   - title: "Categorías"
     url: /categories/
+  - title: "Buscador"
+    url: /buscador/
+  - title: "Etiquetas"
+    url: /tags/
+  - title: "Sobre mí"
+    url: /about/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
