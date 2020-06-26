@@ -31,6 +31,8 @@ No dudes en [contactarme](https://t.me/silexx/) si encuentras interesante mi blo
 De manera totalmente autodidacta he aprendido:
 - Python
 - LaTeX
+- Inkscape
+- NI Multisim
 - MATLAB
 - GNU Octave
 - Adobe Photoshop
