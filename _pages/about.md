@@ -46,5 +46,5 @@ Python, Matlab, Octave, Latex, Física, Physics, Maths, Matemáticas, Hacking, P
 
 ## Aficiones
 
-Referido al ejercicio físico, me gusta practicar **calistenia** y **sentadillas pesadas**. En mi tiempo libre veo **anime** y **documentales** de cualquier ámbito, resuelvo **cubos de Rubik**, juego al **League of Legends** o salgo con amigos.
+Referido al ejercicio físico, me gusta practicar **calistenia** y **sentadillas pesadas**. En mi tiempo libre veo **anime** y **documentales** de cualquier ámbito, resuelvo **cubos de Rubik**, juego al **League of Legends** o salgo con **amigos**.
 
