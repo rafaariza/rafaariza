@@ -42,7 +42,17 @@
   MathJax.Hub.Config({
     TeX: { equationNumbers: { autoNumber: "AMS" } }
   });
-  </script>
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      Macros: {
+        norm: ["{\\left\\lVert #1 \\right\\rVert}",1]
+      }
+    }
+  });
+</script>
 
 <script type="text/x-mathjax-config">
    MathJax.Hub.Config({
