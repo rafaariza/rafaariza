@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Átomo hidrogenoide en coordenadas parabólicas
+title: $\latex{}$
 excerpt: ""
 date: 2020-07-18
 classes: wide
@@ -24,4 +24,4 @@ tags:
   - Editor
 ---
 
-Esta semana toca un post más práctico y menos técnico, una guía para poder realizar nuestros trabajos o textos de una manera mucho más eficiente que con los procesadores de texto clásicos. Seguramente ya te lo habías imaginado pero te lo confirmo: $\LaTeX$
+Esta semana toca un post más práctico y menos técnico, una guía para poder realizar nuestros trabajos o textos de una manera mucho más eficiente que con los procesadores de texto clásicos. Seguramente ya te lo habías imaginado pero te lo confirmo, vamos a aprender a trabajar con $\LaTeX{}$.
