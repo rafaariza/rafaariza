@@ -48,7 +48,7 @@ Para los que lo conocen vagamente o directamente es su primera vez leyendo sobre
 
 Primero necesitamos la distribución de **TeX** (TeX es el lenguaje de macros en el que está basado LaTeX), es donde vienen todas las dependencias del lenguaje necesarias para compilar nuestro texto así como algunos paquetes. Los paquetes son conjuntos de macros creados por la comunidad que nos facilitarán el manejo de nuestro querido LaTeX.
 
-Hay diversas distribuciones: TeX Live, proTeXt, MiKTeX...Yo me decanto por MiKTeX pero cualquiera es válida.
+Hay diversas distribuciones: TeX Live, proTeXt, MiKTeX... Yo me decanto por MiKTeX pero cualquiera es válida.
 
 Visitaremos este [**enlace**](https://miktex.org/download):
 
@@ -316,3 +316,42 @@ El parametro `[H]` se utiliza para fijar la tabla o figura en una posición espe
 ![](/assets/images/tutolatex/tuto24.png){: .align-center}
 
 Os recomiendo esta [**web**](https://www.tablesgenerator.com/) para realizar las tablas de manera gráfica y automáticamente obtener el código LaTeX.
+
+### Bibliografía
+
+Empezaré recomendado que utilicéis un software de control de bibliografías para tenerlas ordenadas en función del parámetro que os convenga: autor, tema, asignatura, campo del saber... Yo utilizo [*Mendeley*](https://www.mendeley.com/?interaction_required=true). Es fácil de comenzar a usar, os registráis y descargáis el software.
+
+Para incluir bibliografías en LaTeX tenemos diversos métodos; personalmente utilizo **BibTeX**.
+Primero añadimos un estilo a nuestra bibliografía colocando un archivo `.bst` en algún lugar de nuestro directorio de trabajo:
+
+![](/assets/images/tutolatex/tuto25.png){: .align-center}
+
+En el preámbulo del documento debemos añadir:
+
+```tex
+\bibliographystyle{doc/nf}
+```
+
+Esto formatea la salida de la bibliografía. Hay un montón de estilos que podéis encontrar por la red. En este caso yo usé el estilo de las revistas enfocadas a física nuclear.
+
+El siguiente paso es crear un archivo `.bib` donde iremos incluyendo todas las referencias que usemos en nuestro texto:
+
+![](/assets/images/tutolatex/tuto26.png){: .align-center}
+
+Esto no lo tenemos que escribir nosotros, se puede obtener la citación en formato **BibTeX** de cualquier revista de artículos.
+
+![](/assets/images/tutolatex/tuto27.png){: .align-center}
+
+Y simplemente lo copiamos en nuestro archivo `.bib`.
+
+Para referenciar en nuestro texto:
+
+```tex
+la fusión nucleares~\cite{Freidberg:1186225}.
+```
+
+Y la salida:
+
+![](/assets/images/tutolatex/tuto28.png){: .align-center}
+
+¡Increíblemente cómodo!
