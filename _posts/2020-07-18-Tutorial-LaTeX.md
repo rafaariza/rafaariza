@@ -74,13 +74,13 @@ E instalamos:
 
 ![](/assets/images/tutolatex/tuto6.png)
 
-## VSCode
+### VSCode
 
-Este será el editor que usaremos para trabajar con LaTeX; es un editor multilenguaje, es decir, podremos tener todos nuestros proyectos (Python, C, C++, R...) en el mismo lugar. La instalación de Visual Studio Code es sencilla([**enlace de descarga**](https://code.visualstudio.com/)), tan solo hay que pulsar **Next** hasta que finalice.
+Este será el editor que usaremos para trabajar con LaTeX; es un editor multilenguaje, es decir, podremos tener todos nuestros proyectos (Python, C, C++, R...) en el mismo lugar. La instalación de Visual Studio Code es sencilla ([**enlace de descarga**](https://code.visualstudio.com/)), tan solo hay que pulsar **Next** hasta que finalice.
 
 ![](/assets/images/tutolatex/tuto7.png)
 
-## Perl
+### Perl
 
 El último requisito es **Perl**, hay algunos componentes de TeX que necesitan de este lenguaje para trabajar correctamente. En editores específicos de LaTeX como TeXstudio ya viene preconfigurado.
 
@@ -110,4 +110,4 @@ Esto hará que nuestro PDF final y los respectivos archivos necesarios para ello
 
 Ya estamos listos para trabajar con LaTeX 👏👏.
 
-## 
+## Uso
