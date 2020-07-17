@@ -256,6 +256,7 @@ Ejemplo de ecuación numerada
   x^2+y^2=r^2
 \end{equation*}
 ```
+Incluyendo el paquete `amsmath` podemos referenciar ecuaciones con el comando `\eqref` de igual manera que lo hicimos con las figuras.
 
 ### Listas
 
@@ -281,5 +282,37 @@ Si queremos una lista enumerada usaremos el entorno *enumerate*. Con el paquete 
 
 ![](/assets/images/tutolatex/tuto21.png){: .align-center}
 
-Como podréis imaginar ya que esto es LaTeX, hay infinitas posibilidades de diseño. Os animo a que juguéis con él hasta encontrar vuestro estilo.
+Como podréis imaginar, ya que esto es LaTeX, hay infinitas posibilidades de diseño. Os animo a que juguéis con él hasta encontrar vuestro estilo.
 
+### Tablas
+
+Yo hago las tablas de esta manera porque me parecen elegantes y se leen bien:
+
+```tex
+\begin{table}[H]
+    \centering
+    \begin{tabular}{cc}
+    \hline
+    PARÁMETRO & VALOR \\ 
+    \hline
+    Número de períodos          & $n=4$       \\
+    Número de bobinas TF          & 32       \\
+    Radio mayor (m)          & $R_0=1.5$      \\
+    Radio menor medio (m)          & $\langle a\rangle\leq 0.2$       \\
+    Campo magnético (T)          & $B\leq 1$       \\
+    Transformada rotacional          & $\iota(0)\approx0.9-2.2$       \\
+    Densidad electrónica (ECRH) (m$^{-3})$          & $n^{ECRH}_{e,max}\approx 1.5\times 10^{19}$       \\
+    Densidad electrónica (NBI) (m$^{-3})$          & $n^{NBI}_{e,max}\approx 8\times 10^{19}$       \\
+    Temperatura electrónica máxima (keV)          & $T_e\approx 2$      \\
+    Temperatura iónica (eV)          & $T_i\approx 150$      \\ \hline
+    \end{tabular}
+    \caption{Parámetros característicos del heliac flexible TJ-II.}
+    \label{tab:tj2}
+\end{table}
+```
+
+El parametro `[H]` se utiliza para fijar la tabla o figura en una posición específica del texto.
+
+![](/assets/images/tutolatex/tuto24.png){: .align-center}
+
+Os recomiendo esta [**web**](https://www.tablesgenerator.com/) para realizar las tablas de manera gráfica y automáticamente obtener el código LaTeX.
