@@ -319,7 +319,7 @@ Os recomiendo esta [**web**](https://www.tablesgenerator.com/) para realizar las
 
 ### Bibliografía
 
-Empezaré recomendado que utilicéis un software de control de bibliografías para tenerlas ordenadas en función del parámetro que os convenga: autor, tema, asignatura, campo del saber... Yo utilizo [**Mendeley**](https://www.mendeley.com/?interaction_required=true). Es fácil de comenzar a usar, os registráis y descargáis el software.
+Empezaré recomendando que utilicéis un software de control de bibliografías para tenerlas ordenadas en función del parámetro que os convenga: autor, tema, asignatura, campo del saber... Yo utilizo [**Mendeley**](https://www.mendeley.com/?interaction_required=true). Es fácil de comenzar a usar, os registráis y descargáis el software.
 
 Para incluir bibliografías en LaTeX tenemos diversos métodos; personalmente utilizo **BibTeX**.
 Primero añadimos un estilo a nuestra bibliografía colocando un archivo `.bst` en algún lugar de nuestro directorio de trabajo:
