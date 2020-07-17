@@ -177,6 +177,36 @@ Y lo añadimos en nuestro texto, quedará algo así:
 
 ![](/assets/images/tutolatex/tuto16.png){: .align-center}
 
+### Figuras
+
+Para incluir imágenes en nuestro texto tan solo debemos incluir el paquete `\usepackage{graphicx}`.
+
+```tex
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{img/compare.png}
+    \caption{Perfiles radiales de transformada rotacional para diferentes
+    conceptos de \textit{stellarators} y un \textit{tokamak}.}
+    \label{fig:compare}
+\end{figure}
+```
+
+![](/assets/images/tutolatex/tuto22.png){: .align-center}
+
+Para formatear el pie de foto de esa manera:
+
+```tex
+\usepackage[labelfont=bf,labelsep=period,font={footnotesize,it}]{caption}
+```
+
+El comando `\label` es usado para darle una referencia a nuestra figura y poder nombrarla en nuestro texto:
+
+```tex
+Es obvio en la figura~\ref{fig:compare}
+```
+
+![](/assets/images/tutolatex/tuto23.png){: .align-center}
+
 ### Figuras vectoriales
 
 Las figuras vectoriales tienen una enorme ventaja frente a los mapas de bits (JPG, PNG...): son creadas a partir de atributos matemáticos, esto es que por mucho zoom que hagamos nunca se desenfocan. Un ejemplo de figura vectorial son las fuentes tipográficas que usamos para escribir en ordenador.
