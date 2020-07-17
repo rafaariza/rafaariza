@@ -112,43 +112,33 @@ Ya estamos listos para trabajar con LaTeX 👏👏.
 
 ## Uso
 
-Comenzamos con la sintaxis básica del lenguaje, los comandos de LaTeX se llaman usando una barra invertida y los argumentos principales entres llaves. Aquí vemos un ejemplo básico de código LaTeX y su respectivo resultado:
+Comenzamos con la sintaxis básica del lenguaje, los comandos de LaTeX se llaman usando una barra invertida, los argumentos principales entres llaves, los comentarios se añaden con el símbolo de porcentaje. Aquí vemos un ejemplo básico de código LaTeX y su respectivo resultado:
 
 ```tex
 \documentclass{article}
-\usepackage{graphicx}
+% preámbulo
+
+\usepackage[utf8]{inputenc} % Para escribir tildes
+\usepackage[T1]{fontenc}    % Para usar fuentes con letras acentuadas, etc.
+\usepackage[spanish]{babel} % Definimos el idioma principal
+
+\title{Hola Mundo}
+\author{Escribe aquí tu nombre}
 
 \begin{document}
-
-\title{Introduction to \LaTeX{}}
-\author{Author's Name}
+% Cuerpo del documento
 
 \maketitle
 
-\begin{abstract}
-The abstract text goes here.
-\end{abstract}
-
-\section{Introduction}
-Here is the text of your introduction.
-
-\begin{equation}
-    \label{simple_equation}
-    \alpha = \sqrt{ \beta }
-\end{equation}
-
-\subsection{Subsection Heading Here}
-Write your subsection text here.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=3.0in]{myfigure}
-    \caption{Simulation Results}
-    \label{simulationfigure}
-\end{figure}
-
-\section{Conclusion}
-Write your conclusion here.
+Mi primer documento en \LaTeX{}.
 
 \end{document}
 ```
+
+Si tenemos todo bien configurado debemos tener un botón llamado **TeX** y arriba a la derecha el visor PDF.
+
+![](/assets/images/tutolatex/tuto13.png){: .align-center}
+
+El resultado final de nuestro entorno de trabajo:
+
+![](/assets/images/tutolatex/tuto14.png){: .align-center}
