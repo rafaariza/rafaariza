@@ -27,7 +27,7 @@ Esta semana toca un post más práctico y menos técnico, una guía para poder r
 
 ![](/assets/images/tutolatex/1.png){: .align-center}
 
-Todo el software utilizado en esta guía esta disponible para 64 y 32 bits. El sistema utilizado es **Windows** pero la manera de proceder en Linux y MacOS es idéntica.
+Todo el software utilizado en esta guía está disponible para 64 y 32 bits. El sistema utilizado es **Windows** pero la manera de proceder en Linux y MacOS es idéntica.
 {: .notice--info}
 
 ## ¿Por qué LaTeX?
