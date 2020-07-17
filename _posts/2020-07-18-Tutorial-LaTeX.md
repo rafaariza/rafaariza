@@ -352,6 +352,10 @@ la fusión nucleares~\cite{Freidberg:1186225}.
 
 Y la salida:
 
+![](/assets/images/tutolatex/tuto29.png){: .align-center}
+
 ![](/assets/images/tutolatex/tuto28.png){: .align-center}
 
 ¡Increíblemente cómodo!
+
+Os recomiendo usar [**Scholar Google**](https://scholar.google.com/) para buscar referencias y libros para vuestros textos.
