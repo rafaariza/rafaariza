@@ -179,7 +179,7 @@ Y lo añadimos en nuestro texto, quedará algo así:
 
 ### Figuras
 
-Para incluir imágenes en nuestro texto tan solo debemos incluir el paquete `\usepackage{graphicx}`.
+Para incluir imágenes en nuestro texto tan solo debemos incluir el paquete `graphicx`.
 
 ```tex
 \begin{figure}
@@ -213,7 +213,7 @@ Las figuras vectoriales tienen una enorme ventaja frente a los mapas de bits (JP
 
 ![](/assets/images/tutolatex/tuto17.png){: .align-center}
 
-Para añadir figuras vectoriales así en nuestro texto debemos incluir el paquete `\usepackage{svg}`.
+Para añadir figuras vectoriales así en nuestro texto debemos incluir el paquete `svg`.
 
 ```tex
 \begin{figure}
@@ -271,7 +271,7 @@ Para añadir una lista a nuestro texto podemos usar el entorno *itemize*:
 
 ![](/assets/images/tutolatex/tuto20.png){: .align-center}
 
-Si queremos una lista enumerada usaremos el entorno *enumerate*. Con el paquete `\usepackage{enumerate}` podemos variar la forma en la que se muestra nuestra etiqueta:
+Si queremos una lista enumerada usaremos el entorno *enumerate*. Con el paquete `enumerate` podemos variar la forma en la que se muestra nuestra etiqueta:
 
 ```tex
 \begin{enumerate}[(1)]
@@ -359,3 +359,37 @@ Y la salida:
 ¡Increíblemente cómodo!
 
 Os recomiendo usar [**Scholar Google**](https://scholar.google.com/) para buscar referencias y libros para vuestros textos.
+
+### Control de versiones
+
+![](/assets/images/tutolatex/meme.jpg){: .align-center}
+
+Para no terminar así con cada uno de nuestros trabajos, usaremos la herramienta **Git**. La instalación de nuevo es sencilla: lo descargamos de [**aquí**](https://git-scm.com/) e instalamos.
+
+Una vez esté instalado deberemos usar un gestor de repositorios, en mi caso opté por [**Github**](https://github.com/). Nos creamos una cuenta e inicializamos un repositorio.
+
+![](/assets/images/tutolatex/tuto30.png){: .align-center}
+
+Añadimos un .gitignore para no subir archivos que no sean necesarios:
+
+![](/assets/images/tutolatex/tuto31.png){: .align-center}
+
+Por último tan solo hay que configurar nuestra cuenta de **Github** en VSCode tal y como indican [**aquí**](https://code.visualstudio.com/docs/editor/github).
+
+Ya estamos listos para comenzar nuestro repositorio, lo clonamos en nuestro ordenador:
+
+![](/assets/images/tutolatex/tuto32.png){: .align-center}
+
+![](/assets/images/tutolatex/tuto33.png){: .align-center}
+
+Y deberíamos tener una estructura tal que así:
+
+![](/assets/images/tutolatex/tuto34.png){: .align-center}
+
+Este es el repositorio que yo usé para hacer el trabajo de la asignatura *Física del Plasma*. Podéis visitarlo [**aquí**](https://github.com/rafaariza/Plasma), encontraréis todo el código fuente de mi trabajo, el PDF final, las figuras, la documentación y la presentación de diapositivas también realizada en LaTeX con la clase **Beamer** que os enseñaré en otro artículo.
+
+También os comparto una [**guía**](https://aulasoftwarelibre.github.io/taller-de-git/) de **Git** realizada por los compañeros del **Aula de Software Libre de la UCO**.
+
+Hasta aquí mi pequeña aportación para vosotros de lo que es este universo llamado $\latex{}$. Cualquier duda o consulta podéis contactarme en cualquiera de los medios que véis a la izquierda debajo de mi foto. 
+
+¡Nos vemos en el siguiente post!
