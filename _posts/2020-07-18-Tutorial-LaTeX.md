@@ -112,7 +112,7 @@ Ya estamos listos para trabajar con LaTeX 👏👏.
 
 ## Uso
 
-Comenzamos con la sintaxis básica del lenguaje, los comandos de LaTeX se llaman usando una barra invertida, los argumentos principales entres llaves, los comentarios se añaden con el símbolo de porcentaje. Aquí vemos un ejemplo básico de código LaTeX y su respectivo resultado:
+Comenzamos con la sintaxis básica del lenguaje, los comandos de LaTeX se llaman usando una barra invertida, los argumentos principales entre llaves, las opciones adicionales de un comando entre corchetes y los comentarios se añaden con el símbolo de porcentaje. Aquí vemos un ejemplo básico de código LaTeX y su respectivo resultado:
 
 ```tex
 \documentclass{article}
@@ -142,3 +142,114 @@ Si tenemos todo bien configurado debemos tener un botón llamado **TeX** y arrib
 El resultado final de nuestro entorno de trabajo:
 
 ![](/assets/images/tutolatex/tuto14.png){: .align-center}
+
+Paréntesis, corchetes y llaves coloreados son gracias al plugin *Bracket Pair Colorizer 2*.
+
+### Crear una portada
+
+Como hemos visto en el ejemplo anterior si definimos título, autor y fecha antes del `\begin{document}` y usamos el comando `\maketitle`, obtenemos un inicio de documento más o menos aceptable. A mi me gusta hacer la portada desde cero aunque es un tema más avanzado (podéis contactarme por privado para este tipo de cosas que se salen de la guía), pero tenemos muchísimas opciones para nuestro objetivo. 
+
+Personalmente recomiendo esta [**web**](https://www.latextemplates.com/) de la que usaremos esta [**plantilla**](https://www.latextemplates.com/template/academic-title-page).
+
+![](/assets/images/tutolatex/tuto15.png){: .align-center}
+
+### Incluir dedicatorias
+
+Creamos un nuevo entorno:
+
+```tex
+\newenvironment{dedication}
+{
+   \cleardoublepage
+   \thispagestyle{empty}
+   \vspace*{\stretch{1}}
+   \hfill\begin{minipage}[t]{0.66\textwidth}
+   \raggedright
+}
+{
+   \end{minipage}
+   \vspace*{\stretch{3}}
+   \clearpage
+}
+```
+
+Y lo añadimos en nuestro texto, quedará algo así:
+
+![](/assets/images/tutolatex/tuto16.png){: .align-center}
+
+### Figuras vectoriales
+
+Las figuras vectoriales tienen una enorme ventaja frente a los mapas de bits (JPG, PNG...): son creadas a partir de atributos matemáticos, esto es que por mucho zoom que hagamos nunca se desenfocan. Un ejemplo de figura vectorial son las fuentes tipográficas que usamos para escribir en ordenador.
+
+![](/assets/images/tutolatex/tuto17.png){: .align-center}
+
+Para añadir figuras vectoriales así en nuestro texto debemos incluir el paquete `\usepackage{svg}`.
+
+```tex
+\begin{figure}
+    \centering
+    \def\svgwidth{10cm}
+    \input{svg/bindingenergy.pdf_tex}
+    \caption[Energía de enlace]{Energía de enlace promedio en función del número másico.}
+    \label{fig:nucleons}
+\end{figure}
+```
+
+La figura está hecha con Microsoft Excel para los puntos e Inkscape para el diseño final. Este apartado se merece un artículo exclusivo porque hay que instalar algunos plugins en Inkscape y no es el punto de este tutorial.
+
+### Ecuaciones
+
+Podemos escribir ecuaciones dentro del texto usando los cierres con el símbolo del dólar:
+
+```tex
+Ejemplo de ecuación en línea con el texto $x^2+y^2=r^2$.
+```
+
+![](/assets/images/tutolatex/tuto18.png){: .align-center}
+
+O podemos escribirlas en un renglón aparte:
+
+```tex
+Ejemplo de ecuación numerada
+\begin{equation}
+  x^2+y^2=r^2
+\end{equation}
+```
+
+![](/assets/images/tutolatex/tuto19.png){: .align-center}
+
+Si no queremos numerarla debemos incluir un asterisco en el entorno equation:
+
+```tex
+Ejemplo de ecuación numerada
+\begin{equation*}
+  x^2+y^2=r^2
+\end{equation*}
+```
+
+### Listas
+
+Para añadir una lista a nuestro texto podemos usar el entorno *itemize*:
+
+```tex
+\begin{itemize}
+  \item Item 1
+  \item Item 2
+\end{itemize}
+```
+
+![](/assets/images/tutolatex/tuto20.png){: .align-center}
+
+Si queremos una lista enumerada usaremos el entorno *enumerate*. Con el paquete `\usepackage{enumerate}` podemos variar la forma en la que se muestra nuestra etiqueta:
+
+```tex
+\begin{enumerate}[(1)]
+  \item Item 1
+  \item Item 2
+\end{enumerate}
+```
+
+![](/assets/images/tutolatex/tuto21.png){: .align-center}
+
+Como podréis imaginar ya que esto es LaTeX, hay infinitas posibilidades de diseño. Os animo a que juguéis con él hasta encontrar vuestro estilo.
+
