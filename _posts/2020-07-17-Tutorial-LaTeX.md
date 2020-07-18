@@ -147,7 +147,7 @@ Paréntesis, corchetes y llaves coloreados son gracias al plugin *Bracket Pair C
 
 ### Crear una portada
 
-Como hemos visto en el ejemplo anterior si definimos título, autor y fecha antes del `\begin{document}` y usamos el comando `\maketitle`, obtenemos un inicio de documento más o menos aceptable. A mi me gusta hacer la portada desde cero aunque es un tema más avanzado (podéis contactarme por privado para este tipo de cosas que se salen de la guía), pero tenemos muchísimas opciones para nuestro objetivo. 
+Como hemos visto en el ejemplo anterior si definimos título, autor y fecha antes del `\begin{document}` y usamos el comando `\maketitle`, obtenemos un inicio de documento más o menos aceptable. A mí me gusta hacer la portada desde cero aunque es un tema más avanzado (podéis contactarme por privado para este tipo de cosas que se salen de la guía), pero tenemos muchísimas opciones para nuestro objetivo. 
 
 Personalmente recomiendo esta [**web**](https://www.latextemplates.com/) de la que usaremos esta [**plantilla**](https://www.latextemplates.com/template/academic-title-page).
 
