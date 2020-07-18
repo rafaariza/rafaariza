@@ -251,7 +251,7 @@ Ejemplo de ecuación numerada
 Si no queremos numerarla debemos incluir un asterisco en el entorno equation:
 
 ```tex
-Ejemplo de ecuación numerada
+Ejemplo de ecuación no numerada
 \begin{equation*}
   x^2+y^2=r^2
 \end{equation*}
