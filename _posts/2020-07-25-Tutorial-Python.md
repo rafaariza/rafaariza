@@ -254,7 +254,7 @@ Conforme os vayan surgiendo dudas, las busquéis y resolváis, aprenderéis lo m
 
 Todo está en Internet, de verdad, todo.
 
-### Instalar paqetes
+### Instalar paquetes
 
 El gestor de paquetes por defecto de Python es `pip`. Su uso es bastante simple, en la consola:
 
