@@ -364,6 +364,12 @@ ax.set_zlabel('Z', fontsize = 12, fontweight = 'bold')
 plt.show()
 ```
 
-Viene la mejor parte: ¡figuras😍😍!.
+Viene la mejor parte: ¡figuras😍😍!
 
 {% include gallery caption="Armónicos esféricos generados con Python." %}
+
+Y hasta aquí este pequeño comienzo con Python y ciencia, una serie de post que continuaré con cosas como los `Jupyter Notebooks` o más scripts interesantes y muchas figuras.
+
+Para terminar os animo a que hagáis un script que calcule el número $\pi$ mediante el método de Montecarlo. El que lo consiga, me lo debe enviar a cualquiera de los enlaces de contacto a la izquierda y le mandaré de vuelta una chuleta buenísima con TODO lo necesario para manejar Python.
+
+¡Nos vamos leyendo🤗!
