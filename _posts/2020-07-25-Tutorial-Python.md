@@ -312,7 +312,7 @@ def legendre_polinomio(l,m,x):
     
 l = int(input('Número cuántico azimutal l: '))
 
-if l < 0:
+if l<0:
     print('l no puede ser negativo')
 
 m = int(input('Número cuántico magnético m: '))
@@ -337,7 +337,7 @@ for i in range(0,p):
         
             rho[i,j] = sqrt(2)*A*cos(m*Phi[i,j])*legendre_polinomio(l,m,cos(Theta[i,j]))
         
-        elif m < 0:
+        elif m<0:
         
             rho[i,j] = sqrt(2)*A*sin(abs(m)*Phi[i,j])*legendre_polinomio(l,abs(m),cos(Theta[i,j]))
         
