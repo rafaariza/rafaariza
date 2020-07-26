@@ -273,10 +273,9 @@ Y, así, me piqué este gracioso script que nos permite obtener las hermosas fig
 ```python
 # Importamos todos los módulos necesarios
 
-from numpy import sin, cos, pi, sqrt, shape, linspace, meshgrid, zeros
+from numpy import sin, cos, pi, sqrt, shape, linspace, meshgrid, zeros, array
 from math import factorial
 import matplotlib.pyplot as plt
-import mpl_toolkits.mplot3d as mp3d
 
 # Definimos funciones necesarias para nuestro cometido
 
@@ -312,7 +311,7 @@ def legendre_polinomio(l,m,x):
     
 l = int(input('Número cuántico azimutal l: '))
 
-if l<0:
+if l < 0:
     print('l no puede ser negativo')
 
 m = int(input('Número cuántico magnético m: '))
@@ -325,27 +324,19 @@ A = sqrt(((2*l+1)*factorial(l-abs(m)))/(4*pi*factorial(l+abs(m)))) # Constante d
 phi = linspace(0,2*pi,181)
 theta = linspace(0,pi,91)
 
-Phi,Theta = meshgrid(phi,theta)
+Phi,Theta = array(meshgrid(phi,theta))
 
-p,q = shape(Phi)
-rho = zeros([p,q])
-
-for i in range(0,p):
-    for j in range(0,q):
-
-        if m>0:
+if m>0:
         
-            rho[i,j] = sqrt(2)*A*cos(m*Phi[i,j])*legendre_polinomio(l,m,cos(Theta[i,j]))
+    rho = pow(abs(sqrt(2)*A*cos(m*Phi)*legendre_polinomio(l,m,cos(Theta))),2)
         
-        elif m<0:
+elif m < 0:
         
-            rho[i,j] = sqrt(2)*A*sin(abs(m)*Phi[i,j])*legendre_polinomio(l,abs(m),cos(Theta[i,j]))
+    rho = pow(abs(sqrt(2)*A*sin(abs(m)*Phi)*legendre_polinomio(l,abs(m),cos(Theta))),2)
         
-        else:
+else:
         
-            rho[i,j] = A*legendre_polinomio(l,0,cos(Theta[i,j]))
-
-p,q = shape(rho)
+    rho = pow(abs(A*legendre_polinomio(l,0,cos(Theta))),2)
 
 x,y,z = esfericas2cartesianas(abs(rho),Theta,Phi)
 
@@ -354,7 +345,7 @@ x,y,z = esfericas2cartesianas(abs(rho),Theta,Phi)
 fig = plt.figure(f'Armónico {l},{m}')
 ax = fig.add_subplot(111,projection='3d')
 
-ax.plot_surface(x,y,z, cmap = 'jet')
+ax.plot_surface(x,y,z, cmap = 'Spectral')
 
 plt.title(f'Armónico {l},{m}', fontsize = 14, fontweight = 'bold')
 ax.set_xlabel('X', fontsize = 12, fontweight = 'bold')
