@@ -193,6 +193,7 @@ incremental: false
 
 # Markdown Processing
 kramdown:
+  line_numbers: true
   input: GFM
   hard_wrap: false
   auto_ids: true
