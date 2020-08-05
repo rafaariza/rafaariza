@@ -6,6 +6,7 @@ date: 2020-07-25
 classes: wide
 toc: true
 toc_label: "Índice"
+read_time: true
 # toc_sticky: true
 header:
   teaser: /assets/images/tutopython/1.png
