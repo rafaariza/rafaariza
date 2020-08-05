@@ -2,7 +2,7 @@
 layout: single
 title: "Energía limpia: fusión nuclear"
 excerpt: "¿Cuál es el mejor candidato que tiene la Física para revertir el cambio climático? En este post te lo cuento."
-date: 2020-08-04
+date: 2020-08-05
 #classes: wide
 toc: true
 toc_label: "Índice"
