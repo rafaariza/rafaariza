@@ -6,6 +6,7 @@ date: 2020-08-04
 #classes: wide
 toc: true
 toc_label: "Índice"
+read_time: true
 #toc_sticky: true
 header:
   teaser: /assets/images/plasma_fus/1.png
