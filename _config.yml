@@ -84,6 +84,7 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
      - "https://twitter.com/rafaariza_98"
+     - "https://instagram.com/rafaariza__"
 # Analytics
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
@@ -117,7 +118,7 @@ author:
       url: "https://github.com/rafaariza/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/rafaariza_98"
+      url: "https://instagram.com/rafaariza__"
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
       url: "https://t.me/silexx"
