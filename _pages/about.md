@@ -38,7 +38,7 @@ De manera totalmente autodidacta he aprendido:
 - Adobe Photoshop
 - Microsoft Excel
 
-Mi nivel de inglés es un B2.
+Mi nivel de inglés es un C1.
 
 ### Keywords:
 
