@@ -1,4 +1,4 @@
-# [rafaariza.github.io](https://rafaariza.github.io)
+# [rafajurado.me](https://rafajurado.me)
 
 Blog personal donde comparto cosas que me parecen interesantes.
 
