@@ -9,7 +9,7 @@ toc_label: "Índice"
 read_time: true
 # toc_sticky: true
 header:
-  teaser: /assets/images/tutolatex/1.png
+  teaser: assets/images/tutolatex/1.png
   teaser_home_page: true
 categories:
   - Tutoriales
