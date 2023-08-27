@@ -7,6 +7,9 @@ title: "Sobre mí"
 date: 26/06/2020
 ---
 
+⚠️ This page is outdated !! ⚠️
+
+
 <br>
 
 <figure style="width: 30%" class="align-right">

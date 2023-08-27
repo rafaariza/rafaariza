@@ -84,7 +84,7 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
      - "https://twitter.com/rafaariza_98"
-     - "https://instagram.com/rafaariza__"
+     - "https://instagram.com/rafa_jurado_ariza"
 # Analytics
 analytics:
   provider               : #"google-gtag" # false (default), "google", "google-universal", "custom"
@@ -97,7 +97,7 @@ analytics:
 author:
   name             : "Rafa Jurado Ariza"
   avatar           : "assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Estudiante de #UCOFísica.<br>Aficionado al hacking y la programación."
+  bio              : "Graduado en Física.<br>Aficionado al hacking y la programación."
   location         : "Córdoba, España."
   email            :
   links:
