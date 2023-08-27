@@ -9,7 +9,7 @@ toc_label: "Índice"
 read_time: true
 # toc_sticky: true
 header:
-  teaser: assets/images/tutolatex/1.png
+  teaser: rafaariza/assets/images/tutolatex/1.png
   teaser_home_page: true
 categories:
   - Tutoriales
@@ -26,7 +26,7 @@ tags:
 
 Esta semana toca un post más práctico y menos técnico, una guía para poder realizar nuestros trabajos o textos de una manera mucho más eficiente que con los procesadores de texto clásicos. Seguramente ya te lo habías imaginado pero te lo confirmo, vamos a aprender a trabajar con $\LaTeX{}$. Veremos cómo instalar un editor de texto multilenguaje, técnicas para llevar nuestros textos al máximo nivel, control de versiones de nuestros trabajos usando Git, etc.
 
-![](/assets/images/tutolatex/1.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/1.png){: .align-center}
 
 Todo el software utilizado en esta guía está disponible para 64 y 32 bits. El sistema utilizado es **Windows** pero la manera de proceder en Linux y MacOS es idéntica.
 {: .notice--info}
@@ -41,7 +41,7 @@ Para los que lo conocen vagamente o directamente es su primera vez leyendo sobre
 - Open source y gratis.
 - ¡Es **fácil**!
 
-![](/assets/images/tutolatex/curva.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/curva.png){: .align-center}
 
 ## Instalación
 
@@ -53,39 +53,39 @@ Hay diversas distribuciones: TeX Live, proTeXt, MiKTeX... Yo me decanto por MiKT
 
 Visitaremos este [**enlace**](https://miktex.org/download):
 
-![](/assets/images/tutolatex/tuto1.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto1.png){: .align-center}
 
 Para 32 bits encontrarás los binarios en el apartado *All downloads*.
 
 Ahora simplemente procedemos con la instalación, nada nuevo bajo el sol:
 
-![](/assets/images/tutolatex/tuto2.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto2.png){: .align-center}
 
 Seleccionamos instalar para todos los usuarios:
 
-![](/assets/images/tutolatex/tuto3.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto3.png){: .align-center}
 
 Hay que marcar que instale los paquetes que faltan sobre la marcha y tamaño de papel A4:
 
-![](/assets/images/tutolatex/tuto4.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto4.png){: .align-center}
 
 E instalamos:
 
-![](/assets/images/tutolatex/tuto5.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto5.png){: .align-center}
 
-![](/assets/images/tutolatex/tuto6.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto6.png){: .align-center}
 
 ### VSCode
 
 Este será el editor que usaremos para trabajar con LaTeX; es un editor multilenguaje, es decir, podremos tener todos nuestros proyectos (Python, C, C++, R...) en el mismo lugar. La instalación de Visual Studio Code es sencilla ([**enlace de descarga**](https://code.visualstudio.com/)), tan solo hay que pulsar **Next** hasta que finalice.
 
-![](/assets/images/tutolatex/tuto7.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto7.png){: .align-center}
 
 ### Perl
 
 El último requisito es **Perl**, hay algunos componentes de TeX que necesitan de este lenguaje para trabajar correctamente. En editores específicos de LaTeX como TeXstudio ya viene preconfigurado.
 
-![](/assets/images/tutolatex/tuto8.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto8.png){: .align-center}
 
 Pulsamos **Next** hasta el final.
 
@@ -93,19 +93,19 @@ Pulsamos **Next** hasta el final.
 
 Entraremos en el apartado extensiones:
 
-![](/assets/images/tutolatex/tuto9.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto9.png){: .align-center}
 
 Buscaremos la extensión **LaTeX Workshop** y debería quedarnos así:
 
-![](/assets/images/tutolatex/tuto10.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto10.png){: .align-center}
 
 Una vez esté instalado iremos a los ajustes y buscaremos LaTeX.
 
-![](/assets/images/tutolatex/tuto11.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto11.png){: .align-center}
 
 Modificamos el parámetro **Out Dir**:
 
-![](/assets/images/tutolatex/tuto12.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto12.png){: .align-center}
 
 Esto hará que nuestro PDF final y los respectivos archivos necesarios para ello, queden en una carpeta independiente dentro de nuestro directorio raíz de trabajo. ¡Orden en nuestro espacio ante todo!
 
@@ -138,11 +138,11 @@ Mi primer documento en \LaTeX{}.
 
 Si tenemos todo bien configurado debemos tener un botón llamado **TeX** y arriba a la derecha el visor PDF.
 
-![](/assets/images/tutolatex/tuto13.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto13.png){: .align-center}
 
 El resultado final de nuestro entorno de trabajo:
 
-![](/assets/images/tutolatex/tuto14.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto14.png){: .align-center}
 
 Paréntesis, corchetes y llaves coloreados son gracias al plugin *Bracket Pair Colorizer 2*.
 
@@ -152,7 +152,7 @@ Como hemos visto en el ejemplo anterior si definimos título, autor y fecha ante
 
 Personalmente recomiendo esta [**web**](https://www.latextemplates.com/) de la que usaremos esta [**plantilla**](https://www.latextemplates.com/template/academic-title-page).
 
-![](/assets/images/tutolatex/tuto15.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto15.png){: .align-center}
 
 ### Incluir dedicatorias
 
@@ -176,7 +176,7 @@ Creamos un nuevo entorno:
 
 Y lo añadimos en nuestro texto, quedará algo así:
 
-![](/assets/images/tutolatex/tuto16.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto16.png){: .align-center}
 
 ### Figuras
 
@@ -192,7 +192,7 @@ Para incluir imágenes en nuestro texto tan solo debemos incluir el paquete `gra
 \end{figure}
 ```
 
-![](/assets/images/tutolatex/tuto22.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto22.png){: .align-center}
 
 Para formatear el pie de foto de esa manera:
 
@@ -206,13 +206,13 @@ El comando `\label` es usado para darle una referencia a nuestra figura y poder 
 Es obvio en la figura~\ref{fig:compare}
 ```
 
-![](/assets/images/tutolatex/tuto23.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto23.png){: .align-center}
 
 ### Figuras vectoriales
 
 Las figuras vectoriales tienen una enorme ventaja frente a los mapas de bits (JPG, PNG...): son creadas a partir de atributos matemáticos, esto es que por mucho zoom que hagamos nunca se desenfocan. Un ejemplo de figura vectorial son las fuentes tipográficas que usamos para escribir en ordenador.
 
-![](/assets/images/tutolatex/tuto17.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto17.png){: .align-center}
 
 Para añadir figuras vectoriales así en nuestro texto debemos incluir el paquete `svg`.
 
@@ -236,7 +236,7 @@ Podemos escribir ecuaciones dentro del texto usando los cierres con el símbolo 
 Ejemplo de ecuación en línea con el texto $x^2+y^2=r^2$.
 ```
 
-![](/assets/images/tutolatex/tuto18.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto18.png){: .align-center}
 
 O podemos escribirlas en un renglón aparte:
 
@@ -247,7 +247,7 @@ Ejemplo de ecuación numerada
 \end{equation}
 ```
 
-![](/assets/images/tutolatex/tuto19.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto19.png){: .align-center}
 
 Si no queremos numerarla debemos incluir un asterisco en el entorno equation:
 
@@ -270,7 +270,7 @@ Para añadir una lista a nuestro texto podemos usar el entorno *itemize*:
 \end{itemize}
 ```
 
-![](/assets/images/tutolatex/tuto20.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto20.png){: .align-center}
 
 Si queremos una lista enumerada usaremos el entorno *enumerate*. Con el paquete `enumerate` podemos variar la forma en la que se muestra nuestra etiqueta:
 
@@ -281,7 +281,7 @@ Si queremos una lista enumerada usaremos el entorno *enumerate*. Con el paquete 
 \end{enumerate}
 ```
 
-![](/assets/images/tutolatex/tuto21.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto21.png){: .align-center}
 
 Como podréis imaginar, ya que esto es LaTeX, hay infinitas posibilidades de diseño. Os animo a que juguéis con él hasta encontrar vuestro estilo.
 
@@ -314,7 +314,7 @@ Yo hago las tablas de esta manera porque me parecen elegantes y se leen bien:
 
 El parametro `[H]` se utiliza para fijar la tabla o figura en una posición específica del texto.
 
-![](/assets/images/tutolatex/tuto24.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto24.png){: .align-center}
 
 Os recomiendo esta [**web**](https://www.tablesgenerator.com/) para realizar las tablas de manera gráfica y automáticamente obtener el código LaTeX.
 
@@ -325,7 +325,7 @@ Empezaré recomendando que utilicéis un software de control de bibliografías p
 Para incluir bibliografías en LaTeX tenemos diversos métodos; personalmente utilizo **BibTeX**.
 Primero añadimos un estilo a nuestra bibliografía colocando un archivo `.bst` en algún lugar de nuestro directorio de trabajo:
 
-![](/assets/images/tutolatex/tuto25.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto25.png){: .align-center}
 
 En el preámbulo del documento debemos añadir:
 
@@ -337,11 +337,11 @@ Esto formatea la salida de la bibliografía. Hay un montón de estilos que podé
 
 El siguiente paso es crear un archivo `.bib` donde iremos incluyendo todas las referencias que usemos en nuestro texto:
 
-![](/assets/images/tutolatex/tuto26.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto26.png){: .align-center}
 
 Esto no lo tenemos que escribir nosotros, se puede obtener la citación en formato **BibTeX** de cualquier revista de artículos.
 
-![](/assets/images/tutolatex/tuto27.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto27.png){: .align-center}
 
 Y simplemente lo copiamos en nuestro archivo `.bib`.
 
@@ -353,9 +353,9 @@ la fusión nucleares~\cite{Freidberg:1186225}.
 
 Y la salida:
 
-![](/assets/images/tutolatex/tuto29.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto29.png){: .align-center}
 
-![](/assets/images/tutolatex/tuto28.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto28.png){: .align-center}
 
 ¡Increíblemente cómodo!
 
@@ -363,29 +363,29 @@ Os recomiendo usar [**Scholar Google**](https://scholar.google.com/) para buscar
 
 ### Control de versiones
 
-![](/assets/images/tutolatex/meme.jpg){: .align-center}
+![](/rafaariza/assets/images/tutolatex/meme.jpg){: .align-center}
 
 Para no terminar así con cada uno de nuestros trabajos, usaremos la herramienta **Git**. La instalación de nuevo es sencilla: lo descargamos de [**aquí**](https://git-scm.com/) e instalamos.
 
 Una vez esté instalado deberemos usar un gestor de repositorios, en mi caso opté por [**Github**](https://github.com/). Nos creamos una cuenta e inicializamos un repositorio.
 
-![](/assets/images/tutolatex/tuto30.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto30.png){: .align-center}
 
 Añadimos un .gitignore para no subir archivos que no sean necesarios:
 
-![](/assets/images/tutolatex/tuto31.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto31.png){: .align-center}
 
 Por último tan solo hay que configurar nuestra cuenta de **Github** en VSCode tal y como indican [**aquí**](https://code.visualstudio.com/docs/editor/github).
 
 Ya estamos listos para comenzar nuestro repositorio, lo clonamos en nuestro ordenador:
 
-![](/assets/images/tutolatex/tuto32.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto32.png){: .align-center}
 
-![](/assets/images/tutolatex/tuto33.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto33.png){: .align-center}
 
 Y deberíamos tener una estructura tal que así:
 
-![](/assets/images/tutolatex/tuto34.png){: .align-center}
+![](/rafaariza/assets/images/tutolatex/tuto34.png){: .align-center}
 
 Este es el repositorio que yo usé para hacer el trabajo de la asignatura *Física del Plasma*. Podéis visitarlo [**aquí**](https://github.com/rafaariza/Plasma), encontraréis todo el código fuente de mi trabajo, el PDF final, las figuras, la documentación y la presentación de diapositivas también realizada en LaTeX con la clase **Beamer** que os enseñaré en otro artículo.
 

@@ -9,9 +9,9 @@ toc_label: "Índice"
 read_time: true
 #toc_sticky: true
 header:
-  teaser: assets/images/plasma_fus/1.png
+  teaser: rafaariza/assets/images/plasma_fus/1.png
   teaser_home_page: true
-  icon: assets/images/physics.webp
+  icon: rafaariza/assets/images/physics.webp
 categories:
   - Física
   - Plasma
@@ -28,7 +28,7 @@ tags:
 La Física es esa ciencia que trata de **comprender** lo que ocurre a nuestro alrededor, a veces, por el mero hecho de querer saber más, por esa naturaleza curiosa que define al ser humano. Pero en muchas otras ocasiones lo hacemos por **mejorar** el mundo que nos rodea y dejar un legado a las generaciones que vienen. Estamos viviendo una época complicada para nuestro planeta: el clima **cambia** a peor y los culpables somos nosotros. Miles de científicos de todos los campos trabajan por encontrar soluciones, en este post te cuento el arma más poderosa que tiene la Física para hacer frente a esta odisea.
 {: .text-justify}
 
-![](/rafaariza/assets/images/plasma_fus/1.png){: .align-center}
+![](/rafaariza/rafaariza/assets/images/plasma_fus/1.png){: .align-center}
 
 ## Energía en el mundo
 
@@ -70,7 +70,7 @@ obtenerse tanto por la división de núcleos pesados (fisión) como fusionando l
 {: .text-justify}
 
 <a name="fig1"></a>{% capture fig_img %}
-![]({{ "/assets/images/plasma_fus/fig1.png" | relative_url }})
+![]({{ "/rafaariza/assets/images/plasma_fus/fig1.png" | relative_url }})
 {% endcapture %}
 
 <figure>
@@ -106,10 +106,10 @@ $$
 
 La energía producida es transportada como energía cinética por el neutrón y la partícula $\alpha$.
 
-![](/assets/images/plasma_fus/reaccion.jpg){: .align-center}
+![](/rafaariza/assets/images/plasma_fus/reaccion.jpg){: .align-center}
 
 <a name="fig2"></a>{% capture fig_img %}
-![]({{ "/assets/images/plasma_fus/fig2.png" | relative_url }})
+![]({{ "/rafaariza/assets/images/plasma_fus/fig2.png" | relative_url }})
 {% endcapture %}
 
 <figure>
@@ -144,7 +144,7 @@ Consiste en un complejo sistema de campos magnéticos que confinan el plasma de 
 {: .text-justify}
 
 {% capture fig_img %}
-![]({{ "/assets/images/plasma_fus/reactor.jpg" | relative_url }})
+![]({{ "/rafaariza/assets/images/plasma_fus/reactor.jpg" | relative_url }})
 {% endcapture %}
 
 <figure>
@@ -160,7 +160,7 @@ Se puede apreciar la forma de donut y en color rosa tendríamos el plasma confin
 Son similares en principio a los *tokamaks*, han sido durante mucho tiempo caballos oscuros en la investigación de la energía de fusión porque los *tokamaks* son mejores para mantener el gas atrapado y retener el calor necesario para mantener las reacciones en marcha. La diferencia principal radica en su forma de contener al plasma, enrevesada y con giros.
 {: .text-justify}
 
-![](/assets/images/plasma_fus/stellarator.jpg){: .align-center}
+![](/rafaariza/assets/images/plasma_fus/stellarator.jpg){: .align-center}
 
 En ausencia de una gran corriente en el plasma, un *stellarator* tiene una inherente
 capacidad de funcionamiento, superior a la del *tokamak*, en estado estacionario y no hay riesgos de fuertes inestabilidades
@@ -181,7 +181,7 @@ Logros como estos han llevado a la ciencia de la fusión a un umbral emocionante
 
 ## ITER
 
-![](/assets/images/plasma_fus/iter.jpg){: .align-center}
+![](/rafaariza/assets/images/plasma_fus/iter.jpg){: .align-center}
 
 ITER ("El Camino" en latín) es uno de los proyectos energéticos más ambiciosos del mundo hoy en día.
 {: .text-justify}
@@ -198,7 +198,7 @@ El ITER será el primer dispositivo de fusión para producir energía neta, el p
 El pasado 28 de julio se comenzó la fase de ensamblaje del reactor. Se espera que comiencen las pruebas con plasma en 2025 y las pruebas de fusión Deuterio-Tritio en 2035.
 {: .text-justify}
 
-![](/assets/images/plasma_fus/iter2.jpg){: .align-center}
+![](/rafaariza/assets/images/plasma_fus/iter2.jpg){: .align-center}
 
 ## Bonus: mi trabajo sobre fusión nuclear
 
