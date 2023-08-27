@@ -28,7 +28,7 @@ tags:
 La Física es esa ciencia que trata de **comprender** lo que ocurre a nuestro alrededor, a veces, por el mero hecho de querer saber más, por esa naturaleza curiosa que define al ser humano. Pero en muchas otras ocasiones lo hacemos por **mejorar** el mundo que nos rodea y dejar un legado a las generaciones que vienen. Estamos viviendo una época complicada para nuestro planeta: el clima **cambia** a peor y los culpables somos nosotros. Miles de científicos de todos los campos trabajan por encontrar soluciones, en este post te cuento el arma más poderosa que tiene la Física para hacer frente a esta odisea.
 {: .text-justify}
 
-![](assets/images/plasma_fus/1.png){: .align-center}
+![](/assets/images/plasma_fus/1.png){: .align-center}
 
 ## Energía en el mundo
 
