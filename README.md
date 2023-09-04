@@ -1,4 +1,4 @@
-# [rafaariza.github.io](https://rafaariza.github.io/rafaariza)
+# [rafaariza.github.io](https://rafaariza.github.io/)
 
 Blog personal donde comparto cosas que me parecen interesantes.
 
