@@ -97,7 +97,7 @@ analytics:
 author:
   name             : "Rafa Jurado Ariza"
   avatar           : "assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Graduado en Física.<br>Aficionado al hacking y la programación."
+  bio              : "Graduado en Física.<br>Aficionado al hacking y la programación.<br>[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=The+five+boxing+wizards+jump+quickly)](https://git.io/typing-svg)"
   location         : "Córdoba, España."
   email            :
   links:
